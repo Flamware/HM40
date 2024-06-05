@@ -1,0 +1,55 @@
+.user-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  background-color: var(--accent-blue);
+  color: var(--black);
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+  color: var(--black);
+  z-index: 1001; /* Ensure it is above the side panel */
+}
+
+.user-info {
+  flex: 1;
+  text-align: center;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+
+.user-info button {
+  background: none;
+  border: none;
+  color: var(--black);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.login-links {
+  display: flex;
+  gap: 10px;
+}
+.user-bar {
+  --navbar-width: 250px; /* Define the width of the navbar */
+  /* Rest of your CSS properties */
+}
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Add this line */
+  padding: 10px 20px;
+  gap: 10px;
+  background-color: var(--accent-yellow);
+  color: var(--black);
+  position: relative;
+}

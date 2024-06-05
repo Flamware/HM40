@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary-yellow);
+}
+:root {
+  /* Primary Colors */
+  --primary-yellow: #FFD700;
+  --primary-blue: #fdfd01;
+
+  /* Secondary Colors */
+  --secondary-yellow: #FFFACD;
+  --secondary-blue: #87CEFA;
+
+  /* Accent Colors */
+  --accent-yellow: #FFA500;
+  --accent-blue: #4169E1;
+
+  /* Neutral Colors */
+  --light-gray: #F0F0F0;
+  --dark-gray: #333333;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  /* Font Colors */
+  --text-primary: var(--dark-gray);
+  --text-secondary: var(--black);
+  --text-light: var(--light-gray);
+}
