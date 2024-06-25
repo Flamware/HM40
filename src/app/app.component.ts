@@ -1,7 +1,10 @@
-import { Component } from '@angular/core';
+import {Component, NgModule} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {UserBarComponent} from "./user-bar/user-bar.component";
 import {QuestionCategoryCardComponent} from "./question-category-card/question-category-card.component";
+import {BrowserModule} from "@angular/platform-browser";
+import {FormsModule} from "@angular/forms";
+import {HttpClientModule} from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +13,7 @@ import {QuestionCategoryCardComponent} from "./question-category-card/question-c
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'HM40';
 }

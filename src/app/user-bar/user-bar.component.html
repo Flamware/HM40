@@ -1,13 +1,13 @@
-<nav class="top-nav">
-    <a routerLink="/home">Home</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/contact">Contact</a>
-    <a routerLink="/login">Login</a>
-    <a routerLink="/register">Register</a>
-</nav>
 <header class="user-bar">
-  <div class="user-info">
-    <span>{{ userName }}</span>
-    <button *ngIf="isLoggedIn" (click)="logout()">Logout</button>
+  <div class="current-page">{{ currentPage }}</div>
+  <div class="icon-container" >
+    <fa-icon [icon]="faBars"></fa-icon>
   </div>
+
+  <nav class="top-nav">
+    <a routerLink="/jouer" routerLinkActive="active">Jouer</a>
+    <a routerLink="/ecrire" routerLinkActive="active">Ecrire</a>
+    <a routerLink="/profil" routerLinkActive="active">Profil</a>
+    <a routerLink="/login" routerLinkActive="login">Login</a>
+  </nav>
 </header>
