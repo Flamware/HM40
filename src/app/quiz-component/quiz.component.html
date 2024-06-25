@@ -1,0 +1,35 @@
+<div class="container">
+  <app-exp-bar [value]="currentExp" [maxValue]="maxExp" (valueChange)="updateExp($event)"></app-exp-bar>
+
+  <div class="header">
+    <div class="category-selector">
+      <select id="category-select" [(ngModel)]="selectedTheme" (ngModelChange)="selectTheme($event)">
+        <option value="">Sélectionner un thème</option>
+        <option *ngFor="let theme of themes" [ngValue]="theme">{{ theme.name }}</option>
+      </select>
+    </div>
+    <button class="validate" *ngIf="selectedTheme !== null" (click)="checkAnswer()">Valider</button>
+  </div>
+
+  <div class="question-section" *ngIf="selectedTheme !== null && questions.length > 0">
+    <div class="question-form">
+      <h2>Question {{ currentQuestionIndex + 1 }}</h2>
+      <p>{{ questions[currentQuestionIndex].question }}</p>
+    </div>
+
+    <div class="answers">
+      <div class="answer-option" *ngFor="let answer of questions[currentQuestionIndex].answers">
+        <label [ngClass]="{ 'selected': answer === selectedAnswer }">
+          <input type="radio" name="answer" [value]="answer.text" (click)="selectAnswer(answer)">
+          {{ answer.text }}
+        </label>
+      </div>
+    </div>
+
+    <div class="feedback" *ngIf="isCorrect !== null">
+      <p *ngIf="isCorrect" class="correct-feedback">Bonne réponse !</p>
+      <p *ngIf="!isCorrect" class="wrong-feedback">Mauvaise réponse.</p>
+      <button *ngIf="currentQuestionIndex < questions.length" (click)="nextQuestion()">Question suivante</button>
+    </div>
+  </div>
+</div>

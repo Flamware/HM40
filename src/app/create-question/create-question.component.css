@@ -1,0 +1,157 @@
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-selector select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #0b4ab7;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.add {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #40ac2b;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.newQuestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fdbe00;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+/* Textarea and input styles */
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: none; /* Remove default border for cleaner look */
+  background: transparent; /* Ensures transparency */
+  color: white; /* White text color */
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-family: inherit; /* Inherit font from parent */
+}
+
+/* Focus state for textarea and input to remove border */
+textarea:focus, input[type="text"]:focus {
+  outline: none; /* Remove the outline on focus */
+  border: none; /* Ensure border remains none on focus */
+}
+
+/* Placeholder text styles */
+textarea::placeholder, input[type="text"]::placeholder {
+  color: white;
+  opacity: 0.7; /* Adjust the opacity for better visibility */
+  font-family: inherit; /* Inherit font from parent */
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Question list styles */
+.question-list {
+  margin-top: 20px;
+}
+
+/* Question styles */
+.question {
+  margin-bottom: 15px;
+}
+
+/* Answer options grid */
+.answer-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Answer option styles */
+.answer-option {
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+}
+
+.answer-option-1 { /* Green for option 1 */
+  background-color: #41ad2b;
+  color: white; /* Ensure text color is white */
+}
+
+.answer-option-2, .answer-option-3, .answer-option-4 { /* Red for options 2-4 */
+  background-color: #fd0808;
+  color: white; /* Ensure text color is white */
+}
+
+/* Correct answer border */
+.correct-answer {
+  border: 2px solid #0b4ab7;
+}
+
+/* Specific styles for question label and textarea */
+.question-field {
+  background-color: yellow; /* Yellow background */
+  color: black; /* Black text color */
+}
+
+.question-field::placeholder {
+  color: black; /* Black placeholder text color */
+  font-family: inherit; /* Inherit font from parent */
+}

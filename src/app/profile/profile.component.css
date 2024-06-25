@@ -1,0 +1,155 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Center the profile container */
+.profile-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px;
+  background-color: white;
+}
+
+/* Center sidebar content */
+.profile-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 20px;
+  border-right: 2px solid #0044cc;
+  margin-right: 20px;
+}
+
+/* Profile icon adjustments */
+.profile-icon {
+  margin-bottom: 20px;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffd700; /* Gold color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Profile info adjustments */
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0044cc; /* Blue color */
+}
+
+.profile-fullname {
+  font-size: 18px;
+  color: #0044cc;
+}
+
+.settings-icon {
+  margin-top: auto;
+  font-size: 24px;
+  color: #0044cc;
+}
+
+/* Center content and ensure equal spacing */
+.profile-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Subject card adjustments */
+.subject-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.green {
+  background-color: #28a745; /* Green color */
+}
+
+.blue {
+  background-color: #007bff; /* Blue color */
+}
+
+.red {
+  background-color: #dc3545; /* Red color */
+}
+
+.subject-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subject-card p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.subject-card strong {
+  font-size: 24px;
+}
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+.theme-toggle-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background: #0b4ab7;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.theme-toggle-button:hover {
+  background-color: #0a3a8b;
+}
+
+/* Optional: Adjust other styles for dark theme */
+body.dark-theme .profile-container {
+  background-color: #1e1e1e;
+}
+
+body.dark-theme .subject-card {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-theme .subject-card.green {
+  background-color: #2e7d32;
+}
+
+body.dark-theme .subject-card.blue {
+  background-color: #1565c0;
+}
+
+body.dark-theme .subject-card.red {
+  background-color: #b71c1c;
+}

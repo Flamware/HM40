@@ -1,0 +1,837 @@
+{
+    "themes": [
+        {
+            "name": "Math\u00e9matiques",
+            "questions": [
+                {
+                    "question": "Quel math\u00e9maticien grec est souvent consid\u00e9r\u00e9 comme le p\u00e8re de la g\u00e9om\u00e9trie ?",
+                    "answers": [
+                        {
+                            "text": "Euclide",
+                            "correct": true
+                        },
+                        {
+                            "text": "Pythagore",
+                            "correct": false
+                        },
+                        {
+                            "text": "Archim\u00e8de",
+                            "correct": false
+                        },
+                        {
+                            "text": "Thal\u00e8s",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le symbole de l'infini en math\u00e9matiques ?",
+                    "answers": [
+                        {
+                            "text": "\u221e",
+                            "correct": true
+                        },
+                        {
+                            "text": "\u2211",
+                            "correct": false
+                        },
+                        {
+                            "text": "\u03c0",
+                            "correct": false
+                        },
+                        {
+                            "text": "\u221a",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la valeur approximative de \u03c0 (Pi) ?",
+                    "answers": [
+                        {
+                            "text": "3.14",
+                            "correct": true
+                        },
+                        {
+                            "text": "3.41",
+                            "correct": false
+                        },
+                        {
+                            "text": "4.31",
+                            "correct": false
+                        },
+                        {
+                            "text": "4.13",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Comment appelle-t-on un polygone \u00e0 huit c\u00f4t\u00e9s ?",
+                    "answers": [
+                        {
+                            "text": "Octogone",
+                            "correct": true
+                        },
+                        {
+                            "text": "Hexagone",
+                            "correct": false
+                        },
+                        {
+                            "text": "Heptagone",
+                            "correct": false
+                        },
+                        {
+                            "text": "D\u00e9cagone",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel nombre est consid\u00e9r\u00e9 comme le nombre de base dans le syst\u00e8me d\u00e9cimal ?",
+                    "answers": [
+                        {
+                            "text": "10",
+                            "correct": true
+                        },
+                        {
+                            "text": "2",
+                            "correct": false
+                        },
+                        {
+                            "text": "1",
+                            "correct": false
+                        },
+                        {
+                            "text": "5",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Qu'appelles-t'on un angle aigu ?",
+                    "answers": [
+                        {
+                            "text": "Un angle de moins de 90\u00b0",
+                            "correct": true
+                        },
+                        {
+                            "text": "Un angle qui chante faux",
+                            "correct": false
+                        },
+                        {
+                            "text": "Un angle de plus de 180\u00b0",
+                            "correct": false
+                        },
+                        {
+                            "text": "Un angle non droit",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Histoire",
+            "questions": [
+                {
+                    "question": "Quel \u00e9v\u00e9nement marque la fin de l'Antiquit\u00e9 et le d\u00e9but du Moyen \u00c2ge en Europe ?",
+                    "answers": [
+                        {
+                            "text": "La chute de l'Empire romain d'Occident",
+                            "correct": true
+                        },
+                        {
+                            "text": "La d\u00e9couverte de l'Am\u00e9rique",
+                            "correct": false
+                        },
+                        {
+                            "text": "La mort de Charlemagne",
+                            "correct": false
+                        },
+                        {
+                            "text": "La naissance de J\u00e9sus Christ",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom de la p\u00e9riode de renaissance culturelle et artistique en Europe au XIVe si\u00e8cle ?",
+                    "answers": [
+                        {
+                            "text": "La Renaissance",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le Si\u00e8cle des Lumi\u00e8res",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le Moyen \u00c2ge",
+                            "correct": false
+                        },
+                        {
+                            "text": "La R\u00e9volution industrielle",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel \u00e9v\u00e9nement a marqu\u00e9 le d\u00e9but de la Premi\u00e8re Guerre mondiale en 1914 ?",
+                    "answers": [
+                        {
+                            "text": "L'attentat de Sarajevo",
+                            "correct": true
+                        },
+                        {
+                            "text": "La bataille de Verdun",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le trait\u00e9 de Versailles",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'invasion de la Pologne",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel roi de France a \u00e9t\u00e9 guillotin\u00e9 pendant la R\u00e9volution fran\u00e7aise en 1793 ?",
+                    "answers": [
+                        {
+                            "text": "Louis XVI",
+                            "correct": true
+                        },
+                        {
+                            "text": "Louis XIV",
+                            "correct": false
+                        },
+                        {
+                            "text": "Napol\u00e9on Bonaparte",
+                            "correct": false
+                        },
+                        {
+                            "text": "Louis Philippe Ier",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "G\u00e9ographie",
+            "questions": [
+                {
+                    "question": "Quel est le plus grand d\u00e9sert chaud du monde ?",
+                    "answers": [
+                        {
+                            "text": "Le Sahara",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le Gobi",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'Antarctique",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'Arabie",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le plus grand oc\u00e9an du monde en superficie ?",
+                    "answers": [
+                        {
+                            "text": "L'oc\u00e9an Pacifique",
+                            "correct": true
+                        },
+                        {
+                            "text": "L'oc\u00e9an Atlantique",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'oc\u00e9an Indien",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'oc\u00e9an Arctique",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le plus haut sommet du monde ?",
+                    "answers": [
+                        {
+                            "text": "L'Everest",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le Kilimandjaro",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le K2",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le Mont Blanc",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le plus grand pays du monde en superficie ?",
+                    "answers": [
+                        {
+                            "text": "La Russie",
+                            "correct": true
+                        },
+                        {
+                            "text": "Les \u00c9tats-Unis",
+                            "correct": false
+                        },
+                        {
+                            "text": "La Chine",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le Canada",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Australie ?",
+                    "answers": [
+                        {
+                            "text": "Canberra",
+                            "correct": true
+                        },
+                        {
+                            "text": "Sydney",
+                            "correct": false
+                        },
+                        {
+                            "text": "Melbourne",
+                            "correct": false
+                        },
+                        {
+                            "text": "Londres",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la devise (monnaie) du Japon ?",
+                    "answers": [
+                        {
+                            "text": "Yen",
+                            "correct": true
+                        },
+                        {
+                            "text": "Yuan",
+                            "correct": false
+                        },
+                        {
+                            "text": "Won",
+                            "correct": false
+                        },
+                        {
+                            "text": "Dollar japonais",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le plus grand lac d'Am\u00e9rique du Nord en superficie ?",
+                    "answers": [
+                        {
+                            "text": "Le lac Sup\u00e9rieur",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le lac Michigan",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le lac Ontario",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le lac Victoria",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le plus petit pays du monde en superficie ?",
+                    "answers": [
+                        {
+                            "text": "Vatican",
+                            "correct": true
+                        },
+                        {
+                            "text": "Monaca",
+                            "correct": false
+                        },
+                        {
+                            "text": "Nauru",
+                            "correct": false
+                        },
+                        {
+                            "text": "Liechtenstein",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Fran\u00e7ais",
+            "questions": [
+                {
+                    "question": "Quel est l'auteur de la c\u00e9l\u00e8bre pi\u00e8ce de th\u00e9\u00e2tre \"Cyrano de Bergerac\" ?",
+                    "answers": [
+                        {
+                            "text": "Edmond Rostand",
+                            "correct": true
+                        },
+                        {
+                            "text": "Moli\u00e8re",
+                            "correct": false
+                        },
+                        {
+                            "text": "Victor Hugo",
+                            "correct": false
+                        },
+                        {
+                            "text": "Jean Racine",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le titre du premier roman de Jules Verne, publi\u00e9 en 1863 ?",
+                    "answers": [
+                        {
+                            "text": "Voyage au centre de la Terre",
+                            "correct": true
+                        },
+                        {
+                            "text": "Vingt mille lieues sous les mers",
+                            "correct": false
+                        },
+                        {
+                            "text": "De la Terre \u00e0 la Lune",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le Tour du monde en quatre-vingts jours",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est l'auteur de la fable \"Le Corbeau et le Renard\" ?",
+                    "answers": [
+                        {
+                            "text": "Jean de La Fontaine",
+                            "correct": true
+                        },
+                        {
+                            "text": "Charles Perrault",
+                            "correct": false
+                        },
+                        {
+                            "text": "\u00c9sope",
+                            "correct": false
+                        },
+                        {
+                            "text": "Voltaire",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom du c\u00e9l\u00e8bre \u00e9crivain britannique qui a \u00e9crit \"Rom\u00e9o et Juliette\" ?",
+                    "answers": [
+                        {
+                            "text": "William Shakespeare",
+                            "correct": true
+                        },
+                        {
+                            "text": "William Wordsworth",
+                            "correct": false
+                        },
+                        {
+                            "text": "Charles Dickens",
+                            "correct": false
+                        },
+                        {
+                            "text": "Jane Austen",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le genre litt\u00e9raire du roman \"Le Petit Prince\" d'Antoine de Saint-Exup\u00e9ry ?",
+                    "answers": [
+                        {
+                            "text": "Conte philosophique",
+                            "correct": true
+                        },
+                        {
+                            "text": "Roman d'aventure",
+                            "correct": false
+                        },
+                        {
+                            "text": "Science-fiction",
+                            "correct": false
+                        },
+                        {
+                            "text": "Po\u00e9sie",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom de l'\u00e9crivain fran\u00e7ais qui a \u00e9crit \"Les Trois Mousquetaires\" ?",
+                    "answers": [
+                        {
+                            "text": "Alexandre Dumas",
+                            "correct": true
+                        },
+                        {
+                            "text": "Gustave Flaubert",
+                            "correct": false
+                        },
+                        {
+                            "text": "\u00c9mile Zola",
+                            "correct": false
+                        },
+                        {
+                            "text": "Honor\u00e9 de Balzac",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est l'imparfait du verbe \"manger\" \u00e0 la premi\u00e8re personne du singulier ?",
+                    "answers": [
+                        {
+                            "text": "Je mangeais",
+                            "correct": true
+                        },
+                        {
+                            "text": "Je mangerai",
+                            "correct": false
+                        },
+                        {
+                            "text": "Je mang\u00e9",
+                            "correct": false
+                        },
+                        {
+                            "text": "J'ai mang\u00e9",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la nature du mot \"rapidement\" dans la phrase : \"Il a couru rapidement.\" ?",
+                    "answers": [
+                        {
+                            "text": "Adverbe",
+                            "correct": true
+                        },
+                        {
+                            "text": "Adjectif",
+                            "correct": false
+                        },
+                        {
+                            "text": "Verbe",
+                            "correct": false
+                        },
+                        {
+                            "text": "Nom",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SVT",
+            "questions": [
+                {
+                    "question": "Quelle est la fonction principale du c\u0153ur dans le corps humain ?",
+                    "answers": [
+                        {
+                            "text": "Pomper le sang",
+                            "correct": true
+                        },
+                        {
+                            "text": "Filtrer le sang",
+                            "correct": false
+                        },
+                        {
+                            "text": "Produire des globules rouges",
+                            "correct": false
+                        },
+                        {
+                            "text": "Dig\u00e9rer les aliments",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom du processus par lequel les plantes produisent leur propre \u00e9nergie ?",
+                    "answers": [
+                        {
+                            "text": "Photosynth\u00e8se",
+                            "correct": true
+                        },
+                        {
+                            "text": "Respiration",
+                            "correct": false
+                        },
+                        {
+                            "text": "Conversion",
+                            "correct": false
+                        },
+                        {
+                            "text": "Transfiguration",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom de l'organe responsable de la production d'urine chez les humains ?",
+                    "answers": [
+                        {
+                            "text": "Les reins",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le foie",
+                            "correct": false
+                        },
+                        {
+                            "text": "La vessie",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le pancr\u00e9as",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la couche la plus externe de la Terre sur laquelle nous vivons ?",
+                    "answers": [
+                        {
+                            "text": "La cro\u00fbte terrestre",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le manteau",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le noyau",
+                            "correct": false
+                        },
+                        {
+                            "text": "La troposph\u00e8re",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Physique",
+            "questions": [
+                {
+                    "question": "Quelle est l'unit\u00e9 de mesure de la force dans le syst\u00e8me international ?",
+                    "answers": [
+                        {
+                            "text": "Newton",
+                            "correct": true
+                        },
+                        {
+                            "text": "Pascal",
+                            "correct": false
+                        },
+                        {
+                            "text": "Joule",
+                            "correct": false
+                        },
+                        {
+                            "text": "Watt",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le processus par lequel l'eau passe de l'\u00e9tat liquide \u00e0 l'\u00e9tat gazeux ?",
+                    "answers": [
+                        {
+                            "text": "\u00c9vaporation",
+                            "correct": true
+                        },
+                        {
+                            "text": "Fusion",
+                            "correct": false
+                        },
+                        {
+                            "text": "Condensation",
+                            "correct": false
+                        },
+                        {
+                            "text": "Solidification",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le nom du mouvement d'un corps autour d'un point fixe ou d'un axe ?",
+                    "answers": [
+                        {
+                            "text": "Rotation",
+                            "correct": true
+                        },
+                        {
+                            "text": "Translation",
+                            "correct": false
+                        },
+                        {
+                            "text": "R\u00e9volution",
+                            "correct": false
+                        },
+                        {
+                            "text": "Oscillation",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Art",
+            "questions": [
+                {
+                    "question": "Qui est l'auteur de la Joconde ?",
+                    "answers": [
+                        {
+                            "text": "Leonardo da Vinci",
+                            "correct": true
+                        },
+                        {
+                            "text": "Vincent van Gogh",
+                            "correct": false
+                        },
+                        {
+                            "text": "Pablo Picasso",
+                            "correct": false
+                        },
+                        {
+                            "text": "Claude Monet",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel mouvement artistique met l'accent sur la repr\u00e9sentation de la lumi\u00e8re et des effets atmosph\u00e9riques ?",
+                    "answers": [
+                        {
+                            "text": "L'impressionnisme",
+                            "correct": true
+                        },
+                        {
+                            "text": "Le r\u00e9alisme",
+                            "correct": false
+                        },
+                        {
+                            "text": "L'expressionnisme",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le cubisme",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est le mat\u00e9riau de base utilis\u00e9 par Auguste Rodin pour cr\u00e9er ses sculptures c\u00e9l\u00e8bres comme \"Le Penseur\" ?",
+                    "answers": [
+                        {
+                            "text": "Bronze",
+                            "correct": true
+                        },
+                        {
+                            "text": "Bois",
+                            "correct": false
+                        },
+                        {
+                            "text": "Marbre",
+                            "correct": false
+                        },
+                        {
+                            "text": "Argile",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la c\u00e9l\u00e8bre \u0153uvre de Michel-Ange repr\u00e9sent\u00e9e sur la vo\u00fbte de la chapelle Sixtine ?",
+                    "answers": [
+                        {
+                            "text": "La Cr\u00e9ation d'Adam",
+                            "correct": true
+                        },
+                        {
+                            "text": "La V\u00e9nus de Milo",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le David",
+                            "correct": false
+                        },
+                        {
+                            "text": "Le Penseur",
+                            "correct": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Qui est l'auteur de la sculpture \"Le Baiser\", repr\u00e9sentant un couple enlac\u00e9 ?",
+                    "answers": [
+                        {
+                            "text": "Auguste Rodin",
+                            "correct": true
+                        },
+                        {
+                            "text": "Constantin Brancusi",
+                            "correct": false
+                        },
+                        {
+                            "text": "Alberto Giacometti",
+                            "correct": false
+                        },
+                        {
+                            "text": "Camille Claudel",
+                            "correct": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.category-selector select {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background: #0b4ab7;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.validate {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background: #41ad2b;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  width: 120px;
+  cursor: pointer;
+}
+
+.validate:hover {
+  background-color: #369c24;
+}
+
+.question-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.question-form h2,
+.question-form p {
+  color: white;
+  background-color: #ffbf00;
+  border-radius: 20px;
+  padding: 15px;
+  width: calc(100% - 30px); /* Ensure padding fits inside container */
+  margin: 10px auto; /* Center align with auto margin */
+}
+
+.answers {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.answer-option {
+  display: inline-block;
+  width: 45%; /* Slightly reduced width for better spacing */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+.answer-option label {
+  display: block;
+  color: white;
+  border: 1px solid #ccc;
+  background: #323131;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.answer-option label:hover {
+  background-color: #f0f0f0;
+  color: #323131;
+}
+
+.answer-option label.selected {
+  background-color: #0b4ab7;
+  color: white;
+}
+
+.answer-option label.correct {
+  background-color: #41ad2b;
+  color: white;
+}
+
+.answer-option label.wrong {
+  background-color: #fd0808;
+  color: white;
+}
+
+.answer-option input[type="radio"] {
+  display: none;
+}
+
+.feedback {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.feedback p {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.feedback button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background: #0b4ab7;
+  border-radius: 20px;
+  outline: none;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.feedback button:hover {
+  background-color: #0a3a8b;
+}
+
+/* Optional: Adjust other styles for dark theme */
+body.dark-theme .profile-container {
+  background-color: #1e1e1e;
+}
+
+body.dark-theme .subject-card {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-theme .subject-card.green {
+  background-color: #2e7d32;
+}
+
+body.dark-theme .subject-card.blue {
+  background-color: #1565c0;
+}
+
+body.dark-theme .subject-card.red {
+  background-color: #b71c1c;
+}

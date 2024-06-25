@@ -5,11 +5,12 @@ import {QuestionCategoryCardComponent} from "./question-category-card/question-c
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import {ExpBarComponent} from "./expbar/expbar.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, UserBarComponent, QuestionCategoryCardComponent],
+  imports: [RouterOutlet, UserBarComponent, QuestionCategoryCardComponent, ExpBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

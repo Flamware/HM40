@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="first-section">
+    <div class="category-selector">
+      <select id="category-select" [(ngModel)]="selectedCategory" (ngModelChange)="selectCategory($event)">
+        <option value="">Sélectionner une catégorie</option>
+        <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+      </select>
+    </div>
+    <button class="add"(click)="addQuestion()">Validate</button>
+
+  </div>
+
+
+
+  <div class="question-form">
+
+    <textarea class="newQuestion" id="newQuestion" [(ngModel)]="newQuestion" placeholder="Entrez votre question"></textarea>
+
+    <div class="answer-options">
+      <div class="answer-option answer-option-1">
+        <input type="text" id="answer1" [(ngModel)]="newQuestionOptions[0]" placeholder="Réponse 1" required>
+      </div>
+      <div class="answer-option answer-option-2 ">
+        <input type="text" id="answer2" [(ngModel)]="newQuestionOptions[1]" placeholder="Réponse 2" required>
+      </div>
+      <div class="answer-option answer-option-3">
+        <input type="text" id="answer3" [(ngModel)]="newQuestionOptions[2]" placeholder="Réponse 3" required>
+      </div>
+      <div class="answer-option answer-option-4">
+        <input type="text" id="answer4" [(ngModel)]="newQuestionOptions[3]" placeholder="Réponse 4" required>
+      </div>
+    </div>
+
+  </div>
+</div>

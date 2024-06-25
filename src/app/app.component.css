@@ -1,9 +1,0 @@
-.category-container {
-  flex-grow: 1; /* Allow the category container to grow to fill the remaining space */
-  display: flex;
-  flex-wrap: wrap; /* Allow category cards to wrap to the next line if needed */
-  justify-content: flex-start; /* Align cards to the start of the container */
-  margin-left: var(--navbar-width);
-}
-
-

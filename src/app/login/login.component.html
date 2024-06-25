@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="forms">
+    <!-- Login Form -->
+    <div class="login-register-form login-form">
+      <h2>Connexion</h2>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmitLogin()">
+        <div class="form-group">
+          <input type="text" formControlName="pseudo" id="login-pseudo" class="form-control" placeholder="Pseudo">
+        </div>
+        <div class="form-group">
+          <input type="password" formControlName="password" id="login-password" class="form-control" placeholder="Mot de Passe">
+        </div>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+      </form>
+    </div>
+
+    <!-- Vertical Bar -->
+    <div class="vertical-bar"></div>
+
+    <!-- Registration Form -->
+    <div class="login-register-form register-form">
+      <h2>Inscription</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmitRegister()">
+        <div class="first-section">
+
+        <div class="form-group">
+          <input type="text" formControlName="pseudo" id="register-pseudo" class="form-control" placeholder="Pseudo">
+        </div>
+        <div class="form-group">
+          <input type="text" formControlName="nom" id="nom" class="form-control" placeholder="Nom">
+        </div>
+        <div class="form-group">
+          <input type="text" formControlName="prenom" id="prenom" class="form-control" placeholder="Prénom">
+        </div>
+        </div>
+      <!-- Role Selection -->
+        <div class="role-form">
+          <label>
+            <div class="dropdown-class dropdown-number">
+              <input type="radio" formControlName="role" value="eleve"> Élève
+              <!-- Additional Fields for Role -->
+              <select formControlName="classNumber" id="classNumber">
+                <option value="">Niveau</option>
+                <option value="1">Classe 1</option>
+                <option value="2">Classe 2</option>
+                <option value="3">Classe 3</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+          </label>
+          <label>
+            <div class="dropdown-class dropdown-course">
+              <input type="radio" formControlName="role" value="enseignant"> Enseignant
+              <select formControlName="classCourse" id="classCourse">
+                <option value="">Matière</option>
+                <option value="math">Mathématiques</option>
+                <option value="fr">Français</option>
+                <option value="sci">Sciences</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
+          </label>
+        </div>
+
+        <!-- Password and Confirm Password -->
+        <div class="bottom-register-form">
+        <div class="password-form">
+          <input type="password" formControlName="password" id="register-password" class="form-control" placeholder="Mot de Passe">
+          <input type="password" formControlName="confirmPassword" id="confirmPassword" class="form-control" placeholder="Confirmer">
+        </div>
+        <!-- Submit Button -->
+        <div class="form-group text-right">
+          <button type="submit" class="btn btn-primary">Créer un compte</button>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
