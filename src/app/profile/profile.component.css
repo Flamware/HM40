@@ -39,6 +39,7 @@
 }
 
 .icon-text {
+
   font-size: 48px;
   font-weight: bold;
   color: white;
@@ -95,7 +96,8 @@
 }
 
 .subject-card h3 {
-  font-size: 18px;
+  font-family: 'NomDeVotrePolice', sans-serif;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 10px;
 }

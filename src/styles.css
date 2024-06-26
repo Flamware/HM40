@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'NomDeVotrePolice';
+  src: url('app/assets/Game On_PersonalUseOnly.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* You can add global styles to this file, and also import other style files */
 body, html{
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;

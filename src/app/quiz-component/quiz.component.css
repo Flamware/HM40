@@ -1,4 +1,5 @@
 .container {
+
   max-width: 800px;
   margin: 10px auto;
   padding: 20px;
@@ -16,7 +17,9 @@
 
 .category-selector select {
   padding: 10px 20px;
-  font-size: 1em;
+  font-size: 20px;
+  /* bold */
+  font-weight: bold;
   border: none;
   background: #0b4ab7;
   border-radius: 20px;
@@ -56,6 +59,12 @@
   padding: 15px;
   width: calc(100% - 30px); /* Ensure padding fits inside container */
   margin: 10px auto; /* Center align with auto margin */
+}
+.question-form p{
+  font-family: 'NomDeVotrePolice', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color : white;
 }
 
 .answers {
